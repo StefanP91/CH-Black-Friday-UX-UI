@@ -24,6 +24,15 @@ items.forEach((item, index) => {
   });
 });
 
+// ACADEMIES OPEN FORM
+function loadActiveForm(formId) {
+  const script = document.createElement('script');
+  script.src = `https://akoskarova.activehosted.com/f/embed.php?id=${formId}`;
+  script.charset = 'utf-8';
+  
+  document.body.appendChild(script);
+}
+
 // ACADEMIES FORM
 window.cfields = [];
 window._show_thank_you = function(id, message, trackcmp_url, email) {

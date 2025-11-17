@@ -377,6 +377,10 @@ main{
     }
 }
 
+#registerForm{
+    padding-bottom: 3%;
+}
+
 /* FOOTER */
 footer {
     background: linear-gradient(180deg, #05204A 0%, #0A2A5E 100%);
